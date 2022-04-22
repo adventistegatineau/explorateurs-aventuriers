@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.21.0" title="Shotcut version 20.04.12" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="0" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30000" frame_rate_den="1001" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:01:47.915">
+    <property name="length">00:01:47.948</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/02-Je_monte.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2022-03-11T01:09:48</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">57dc59ef9dfeb877bb0ea31e91de21d1</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">F:/COMITE/1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:11:25</property>
+    <property name="shotcut:hash">61ffc3a785d34a6aa533180e14da3629</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">F:/COMITE/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:12:07</property>
+    <property name="shotcut:hash">dbce018bafbc26905021988bfbbf9cfd</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:15:27</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e60aa59a8d1688a08412f80e25cef50c</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:01:47.915"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:38.338"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:38.338"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:38.338"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:47.915">
+    <property name="length">00:01:47.948</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:47.915"/>
+  </playlist>
+  <producer id="producer4" in="00:00:00.000" out="00:01:47.915">
+    <property name="length">00:01:47.948</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/02-Je_monte.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="creation_time">2022-03-11T01:09:48</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">57dc59ef9dfeb877bb0ea31e91de21d1</property>
+    <property name="shotcut:caption">02-Je_monte.mp3</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer4" in="00:00:00.000" out="00:01:47.915"/>
+  </playlist>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">F:/COMITE/1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:11:25</property>
+    <property name="shotcut:hash">61ffc3a785d34a6aa533180e14da3629</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">1.png</property>
+    <property name="shotcut:detail">F:\COMITE\1.png</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:15:27</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e60aa59a8d1688a08412f80e25cef50c</property>
+    <property name="shotcut:caption">2.png</property>
+    <property name="shotcut:detail">f:\COMITE\2.png</property>
+  </producer>
+  <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.334">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:00:21.121" out="00:00:21.455"/>
+    <track producer="producer6" in="00:00:00.000" out="00:00:00.334"/>
+    <transition id="transition0" out="00:00:00.334">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.334">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">F:/COMITE/1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:11:25</property>
+    <property name="shotcut:hash">61ffc3a785d34a6aa533180e14da3629</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">1.png</property>
+    <property name="shotcut:detail">F:\COMITE\1.png</property>
+  </producer>
+  <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.400">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:00:17.150" out="00:00:17.551"/>
+    <track producer="producer7" in="00:00:00.000" out="00:00:00.400"/>
+    <transition id="transition2" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:15:27</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e60aa59a8d1688a08412f80e25cef50c</property>
+    <property name="shotcut:caption">2.png</property>
+    <property name="shotcut:detail">f:\COMITE\2.png</property>
+  </producer>
+  <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.334">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:00:17.718" out="00:00:18.051"/>
+    <track producer="producer8" in="00:00:00.000" out="00:00:00.334"/>
+    <transition id="transition4" out="00:00:00.334">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.334">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">F:/COMITE/1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:11:25</property>
+    <property name="shotcut:hash">61ffc3a785d34a6aa533180e14da3629</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">1.png</property>
+    <property name="shotcut:detail">F:\COMITE\1.png</property>
+  </producer>
+  <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:00.367">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer8" in="00:00:16.283" out="00:00:16.650"/>
+    <track producer="producer9" in="00:00:00.000" out="00:00:00.367"/>
+    <transition id="transition6" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer10" in="00:00:00.000" out="03:59:59.993">
+    <property name="length">03:59:60.027</property>
+    <property name="eof">pause</property>
+    <property name="resource">f:/COMITE/2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2022-03-11T01:15:27</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e60aa59a8d1688a08412f80e25cef50c</property>
+    <property name="shotcut:caption">2.png</property>
+    <property name="shotcut:detail">f:\COMITE\2.png</property>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.501">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer9" in="00:00:16.583" out="00:00:17.084"/>
+    <track producer="producer10" in="00:00:00.000" out="00:00:00.501"/>
+    <transition id="transition8" out="00:00:00.501">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.501">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:21.088"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.334"/>
+    <entry producer="producer6" in="00:00:00.367" out="00:00:17.117"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="producer7" in="00:00:00.434" out="00:00:17.684"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.334"/>
+    <entry producer="producer8" in="00:00:00.367" out="00:00:16.250"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.367"/>
+    <entry producer="producer9" in="00:00:00.400" out="00:00:16.550"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.501"/>
+    <entry producer="producer10" in="00:00:00.534" out="00:00:19.052"/>
+  </playlist>
+  <tractor id="tractor5" title="Shotcut version 20.04.12" global_feed="1" in="00:00:00.000" out="00:01:47.915">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="video"/>
+    <track producer="playlist1"/>
+    <transition id="transition10">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition11">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition12">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
